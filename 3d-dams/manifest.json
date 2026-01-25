@@ -1,0 +1,41 @@
+{
+  "name": "3d-dams",
+  "label": "3D Dams",
+  "type": "widget",
+  "version": "1.17.0",
+  "exbVersion": "1.17.0",
+  "author": "You",
+  "description": "3D visualization of dams using GLB files from datasource attachments",
+  "defaultSize": {
+    "width": 800,
+    "height": 600
+  },
+  "supportDataSource": true,
+  "useDataSourcesEnabled": true,
+  "properties": {
+    "showTypeSelector": {
+      "type": "boolean",
+      "label": "Show Type Selector",
+      "default": true
+    },
+    "defaultType": {
+      "type": "string",
+      "label": "Default Type",
+      "default": "Тип 1",
+      "enum": [
+        "Тип 1",
+        "Тип 2",
+        "Тип 3"
+      ]
+    },
+    "cameraPosition": {
+      "type": "object",
+      "label": "Camera Position",
+      "default": {
+        "x": 0,
+        "y": 0,
+        "z": 5
+      }
+    }
+  }
+}
