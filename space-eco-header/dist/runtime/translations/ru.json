@@ -1,6 +1,8 @@
 {
   "search": {
-    "placeholder": "Введите ID"
+    "placeholder": "Введите ID",
+    "noResults": "В выбранной области информация, связанная с этим ID, отсутствует.",
+    "loading": "Загрузка..."
   },
   "languageSwitch": {
     "title": "Язык"

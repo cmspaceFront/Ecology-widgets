@@ -1,14 +1,14 @@
 {
-  "rootId": "space-eco-header",
+"rootId": "space-eco-header",
   "name": "space-eco-header",
   "label": "Space Eco Header",
   "version": "1.0.0",
   "type": "widget",
   "exbVersion": "1.11.0",
   "author": "you",
-  "description": "Header widget matching Figma design with dark theme",
+  "description": "Display monitoring results with status indicators for UZCOSMOS, EKOLOGIYA, and PROKRATURA",
   "properties": {
-    "hasSettingPage": false,
+    "hasSettingPage": true,
     "hasStyle": true
   },
   "style": {
@@ -16,6 +16,32 @@
       "useCustom": {
         "type": "boolean"
       }
+    }
+  },
+  "propertiesConfig": {
+    "apiBaseUrl": {
+      "type": "string",
+      "title": "API Base URL",
+      "description": "Base URL for the monitoring API",
+      "default": "https://geomodul.cmspace.uz/api"
+    },
+    "apiToken": {
+      "type": "string",
+      "title": "API Token",
+      "description": "JWT token for API authentication",
+      "default": ""
+    },
+    "enablePagination": {
+      "type": "boolean",
+      "title": "Enable Pagination",
+      "description": "Enable pagination for the table",
+      "default": true
+    },
+    "itemsPerPage": {
+      "type": "number",
+      "title": "Items Per Page",
+      "description": "Number of items to display per page",
+      "default": 20
     }
   }
 }

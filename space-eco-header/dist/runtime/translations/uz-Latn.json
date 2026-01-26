@@ -1,6 +1,8 @@
 {
   "search": {
-    "placeholder": "ID kiriting"
+    "placeholder": "ID kiriting",
+    "noResults": "Tanlangan hududda ushbu ID ga bog'langan ma'lumot mavjud emas",
+    "loading": "Yuklanmoqda..."
   },
   "languageSwitch": {
     "title": "Til"

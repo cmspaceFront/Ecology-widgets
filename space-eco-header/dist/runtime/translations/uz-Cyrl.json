@@ -1,6 +1,8 @@
 {
   "search": {
-    "placeholder": "ID киритинг"
+    "placeholder": "ID киритинг",
+    "noResults": "Танланган ҳудудда ушбу ID га боғланган маълумот мавжуд емас",
+    "loading": "Юкланмоқда..."
   },
   "languageSwitch": {
     "title": "Тил"
