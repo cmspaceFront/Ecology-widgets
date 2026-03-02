@@ -2,14 +2,12 @@
   "name": "Custom-map-widget",
   "type": "widget",
   "version": "1.0.0",
-  "exbVersion": "1.12.0",
+  "exbVersion": "1.14.0",
   "author": "Custom",
-  "description": "Custom Map Widget - displays map of Uzbekistan",
+  "description": "Hybrid Map Widget - displays map with hybrid basemap",
   "copyright": "",
   "license": "http://www.apache.org/licenses/LICENSE-2.0",
-  "properties": {
-    "objectId": ""
-  },
+  "properties": {},
   "translatedLocales": [
     "en",
     "ru"
